@@ -52,7 +52,6 @@
   justify-content: flex-end;
   align-items: center;
   position: absolute;
-  z-index: 1;
 }
 
 .header__decorated::before {
@@ -64,7 +63,6 @@
   right: 10px;
   inset-inline-end: 41px;
   inset-block-start: 2px;
-  grid-row: 1;
 }
 
 .header__decorated::after {
@@ -81,12 +79,12 @@
   inset-block-start: 8px;
 }
 
-.header__decorated.theme_light {
+.page.theme_light .header__decorated {
   display: none;
 }
 
-.header__decorated.theme_auto {
-display: none;
+.page.theme_auto .header__decorated {
+  display: none;
 }
 
 .header__theme-menu {
