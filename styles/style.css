@@ -83,10 +83,14 @@
 
 .theme_light .header__decorated {
   position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
   overflow: hidden;
 }
 .theme_auto .header__decorated {
   position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
   overflow: hidden;
 }
 
