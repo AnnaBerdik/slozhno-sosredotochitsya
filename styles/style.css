@@ -465,7 +465,6 @@
     grid-column: span 2;
     margin-inline-start: -20px;
     margin-block-end: 114px;
-    text-shadow: 4px 4px 0px var(--accent-color,#FF0070);
   }
 
   .header__text {
