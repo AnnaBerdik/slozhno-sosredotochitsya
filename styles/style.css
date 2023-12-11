@@ -81,19 +81,12 @@
   inset-block-start: 8px;
 }
 
-.theme_light .header__decorated {
-  position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
-  white-space: nowrap;
-  visibility: hidden;
+.header__decorated.theme_light {
+  display: none;
 }
-.theme_auto .header__decorated {
-  position: absolute;
-  visibility: hidden;
-  inline-size: 1px;
-  block-size: 1px;
-  white-space: nowrap;
+
+.header__decorated.theme_auto {
+display: none;
 }
 
 .header__theme-menu {
