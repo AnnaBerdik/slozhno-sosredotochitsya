@@ -51,8 +51,8 @@
   gap: 13px;
   justify-content: flex-end;
   align-items: center;
-  z-index: 1;
   position: absolute;
+  z-index: 1;
 }
 
 .header__decorated::before {
@@ -82,10 +82,18 @@
 }
 
 .theme_light .header__decorated {
-display: none;
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  white-space: nowrap;
+  visibility: hidden;
 }
 .theme_auto .header__decorated {
-display: none;
+  position: absolute;
+  visibility: hidden;
+  inline-size: 1px;
+  block-size: 1px;
+  white-space: nowrap;
 }
 
 .header__theme-menu {
