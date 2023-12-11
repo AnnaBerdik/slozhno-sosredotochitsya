@@ -76,7 +76,7 @@
   width: 9px;
   height: 9px;
   border-radius: 100%;
-  box-shadow: 0 0 4px 2px var(--decor-color, #ff0070);
+  box-shadow: 0 0 4px 2px var(--accent-color, #ff0070);
   inset-inline-end: 19px;
   inset-block-start: 8px;
 }
