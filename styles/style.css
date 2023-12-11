@@ -79,11 +79,11 @@
   inset-block-start: 8px;
 }
 
-.page.theme_light .header__decorated {
+.theme_light .header__decorated {
   display: none;
 }
 
-.page.theme_auto .header__decorated {
+.theme_auto .header__decorated {
   display: none;
 }
 
@@ -413,7 +413,6 @@
     left: 0px;
     grid-row: 3;
   }
-
 }
 
 @media (width >= 1024px) {
