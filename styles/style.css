@@ -63,8 +63,8 @@
   color: var(--accent-color, #ff0070);
   top: 10px;
   right: 10px;
-  inset-inline-end: 41px; 
-  inset-block-start: 2px; 
+  inset-inline-end: 41px;
+  inset-block-start: 2px;
 } 
 
 .header__decorated::after {
@@ -77,7 +77,7 @@
   height: 9px;
   border-radius: 50%;
   box-shadow: 0 0 4px 2px var(--accent-color, #ff0070);
-  inset-inline-end: 19px; 
+  inset-inline-end: 19px;
   inset-block-start: 8px;
 }
 
