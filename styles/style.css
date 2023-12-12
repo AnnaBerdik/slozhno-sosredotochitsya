@@ -83,7 +83,7 @@
 
 .header__theme-menu {
   grid-column: 2;
-  font-size: 18px;
+  font-weight: 400;
   justify-self: end;
   align-self: center;
 }
@@ -152,6 +152,7 @@
   grid-column: span 2;
   align-self:center;
   font-size: 18px;
+  font-weight: 700;
   line-height: var(--line-height);
 }
 
@@ -322,7 +323,7 @@
 
   .container__section {
     margin-block-end: 80px;
-    grid-template-columns: 32% 1fr;
+    grid-template-columns: 32.3% 1fr;
   }
 
   .container-concentration .container__section-list {
