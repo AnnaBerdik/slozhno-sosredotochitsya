@@ -54,6 +54,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  visibility: var(--decor-visibility, visible);
 }
 
 .header__decorated::before {
